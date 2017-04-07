@@ -58,7 +58,7 @@ class SettingsViewController: UIViewController, UITableViewDataSource, UITableVi
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "LanguageViewCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "SettingsStarViewCell", for: indexPath)
         
         // Configure the cell...
         cell.textLabel?.text = sections[indexPath.section].items[indexPath.row]

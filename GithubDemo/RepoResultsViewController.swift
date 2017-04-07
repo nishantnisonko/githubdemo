@@ -81,7 +81,7 @@ class RepoResultsViewController: UIViewController, UITableViewDelegate, UITableV
 //        var indexPath: IndexPath!
         let navigationController = segue.destination as! UINavigationController
         
-        let svc = navigationController.topViewController as! SectionsTableViewController
+        let svc = navigationController.topViewController as! SettingsViewController
 
         
         svc.settings = searchSettings
